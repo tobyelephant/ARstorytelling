@@ -335,8 +335,11 @@ CanvasRenderer:
   m_GameObject: {fileID: 9913329}
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!95 &777498930
 =======
+=======
+>>>>>>> parent of be74973 (Merge pull request #3 from tobyelephant/scene#4-12(calvin))
 --- !u!1 &38312137
 GameObject:
   m_ObjectHideFlags: 0
@@ -577,10 +580,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_IsActive: 1
 --- !u!224 &804149477
 RectTransform:
 =======
+=======
+>>>>>>> parent of be74973 (Merge pull request #3 from tobyelephant/scene#4-12(calvin))
   m_IsActive: 0
 --- !u!64 &175542702
 MeshCollider:
@@ -598,6 +604,9 @@ MeshCollider:
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &175542703
 MeshRenderer:
+<<<<<<< HEAD
+>>>>>>> parent of be74973 (Merge pull request #3 from tobyelephant/scene#4-12(calvin))
+=======
 >>>>>>> parent of be74973 (Merge pull request #3 from tobyelephant/scene#4-12(calvin))
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -656,7 +665,10 @@ Transform:
   m_GameObject: {fileID: 175542701}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of be74973 (Merge pull request #3 from tobyelephant/scene#4-12(calvin))
   m_LocalPosition: {x: 273.2, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3657,14 +3669,20 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1696490395}
+<<<<<<< HEAD
+>>>>>>> parent of be74973 (Merge pull request #3 from tobyelephant/scene#4-12(calvin))
+=======
 >>>>>>> parent of be74973 (Merge pull request #3 from tobyelephant/scene#4-12(calvin))
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_AnchoredPosition: {x: -381, y: -243}
 =======
+=======
+>>>>>>> parent of be74973 (Merge pull request #3 from tobyelephant/scene#4-12(calvin))
   m_AnchoredPosition: {x: -280.99997, y: -191.06581}
   m_SizeDelta: {x: 65, y: 65}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -6713,6 +6731,9 @@ MonoBehaviour:
   m_DeselectOnBackgroundClick: 1
   m_PointerBehavior: 0
 --- !u!1001 &2014232276
+<<<<<<< HEAD
+>>>>>>> parent of be74973 (Merge pull request #3 from tobyelephant/scene#4-12(calvin))
+=======
 >>>>>>> parent of be74973 (Merge pull request #3 from tobyelephant/scene#4-12(calvin))
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6807,6 +6828,10 @@ GameObject:
   - component: {fileID: 2021868984}
   - component: {fileID: 2021868983}
   - component: {fileID: 2021868982}
+<<<<<<< HEAD
+  m_Layer: 5
+  m_Name: Stop
+=======
   m_Layer: 5
   m_Name: Stop
   m_TagString: Untagged
@@ -6815,6 +6840,144 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!224 &2021868981
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2021868980}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1696490395}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: 206.99991, y: -141.12396}
+  m_SizeDelta: {x: 50, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2021868982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2021868980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 2021868983}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1113884790}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Stop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &2021868983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2021868980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 2f8f3a7b2ef3941979a5aacb8bb1facb, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2021868984
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2021868980}
+  m_CullTransparentMesh: 1
+--- !u!1 &2039680466
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2039680467}
+  - component: {fileID: 2039680470}
+  - component: {fileID: 2039680469}
+  - component: {fileID: 2039680468}
+  m_Layer: 5
+  m_Name: Play
+>>>>>>> parent of be74973 (Merge pull request #3 from tobyelephant/scene#4-12(calvin))
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+<<<<<<< HEAD
+--- !u!224 &2021868981
+=======
+--- !u!224 &2039680467
+>>>>>>> parent of be74973 (Merge pull request #3 from tobyelephant/scene#4-12(calvin))
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7043,11 +7206,15 @@ GameObject:
 =======
 --- !u!23 &2045158182
 MeshRenderer:
+<<<<<<< HEAD
+>>>>>>> parent of be74973 (Merge pull request #3 from tobyelephant/scene#4-12(calvin))
+=======
 >>>>>>> parent of be74973 (Merge pull request #3 from tobyelephant/scene#4-12(calvin))
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   serializedVersion: 6
   m_Component:
@@ -7079,6 +7246,8 @@ MonoBehaviour:
 --- !u!4 &2000811427
 Transform:
 =======
+=======
+>>>>>>> parent of be74973 (Merge pull request #3 from tobyelephant/scene#4-12(calvin))
   m_GameObject: {fileID: 2045158180}
   m_Enabled: 1
   m_CastShadows: 1
@@ -7117,11 +7286,15 @@ Transform:
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!33 &2045158183
 MeshFilter:
+<<<<<<< HEAD
+>>>>>>> parent of be74973 (Merge pull request #3 from tobyelephant/scene#4-12(calvin))
+=======
 >>>>>>> parent of be74973 (Merge pull request #3 from tobyelephant/scene#4-12(calvin))
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 2000811424}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -7164,6 +7337,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2045158180}
   m_Mesh: {fileID: -4858863446818452812, guid: 5a129356138f916499ee4d4230dcee8f, type: 3}
 >>>>>>> parent of be74973 (Merge pull request #3 from tobyelephant/scene#4-12(calvin))
+=======
+  m_GameObject: {fileID: 2045158180}
+  m_Mesh: {fileID: -4858863446818452812, guid: 5a129356138f916499ee4d4230dcee8f, type: 3}
+>>>>>>> parent of be74973 (Merge pull request #3 from tobyelephant/scene#4-12(calvin))
 --- !u!1 &2046933385
 GameObject:
   m_ObjectHideFlags: 0
@@ -7183,7 +7360,11 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_IsActive: 1
+=======
+  m_IsActive: 0
+>>>>>>> parent of be74973 (Merge pull request #3 from tobyelephant/scene#4-12(calvin))
 =======
   m_IsActive: 0
 >>>>>>> parent of be74973 (Merge pull request #3 from tobyelephant/scene#4-12(calvin))
@@ -7260,8 +7441,11 @@ Transform:
   m_GameObject: {fileID: 2046933385}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: 164.2, y: 0, z: 0}
 =======
+=======
+>>>>>>> parent of be74973 (Merge pull request #3 from tobyelephant/scene#4-12(calvin))
   m_LocalPosition: {x: 162.59, y: 0, z: 0}
 >>>>>>> parent of be74973 (Merge pull request #3 from tobyelephant/scene#4-12(calvin))
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -7352,4 +7536,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4573fb04a1b1d08409611753e0634a9b, type: 3}
   m_PrefabInstance: {fileID: 1140867830}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+>>>>>>> parent of be74973 (Merge pull request #3 from tobyelephant/scene#4-12(calvin))
+=======
 >>>>>>> parent of be74973 (Merge pull request #3 from tobyelephant/scene#4-12(calvin))
