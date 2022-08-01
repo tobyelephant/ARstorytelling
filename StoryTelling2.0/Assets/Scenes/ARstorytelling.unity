@@ -1467,10 +1467,22 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Production \u2013 Junxiang Zhang, Kazumichi Nakashima, Ping Feng, Zijie
-    Jin \r\n\r\n \r\n\r\nStorywriting - Junxiang Zhang \r\n\r\n \r\n\r\n3D Model
-    and Rig \r\n\r\nBaby Sparrow - Kazumichi Nakashima \r\n\r\nMother Sparrow - Kazumichi
-    Nakashima \r\n\r\nHen - Kazumichi Nakashima \r\n\r\nCrow \u2013 Kazumichi Nakashima
-    \r\n\r\nCow \u2013 Junxiang Zhang "
+    Jin \r\n\r\n\nStorywriting - Junxiang Zhang \r\n\r\n\n3D Models and Rigs \r\n\r\nBaby
+    Sparrow - Kazumichi Nakashima \r\n\r\nMother Sparrow - Kazumichi Nakashima \r\n\r\nHen
+    - Kazumichi Nakashima \r\n\r\nCrow \u2013 Kazumichi Nakashima \r\n\r\nCow \u2013
+    Junxiang Zhang \r\n\r\n\r\nAnimation \r\n\r\nScene # 1 - Kazumichi Nakashima
+    \r\n\r\nScene # 2 - Kazumichi Nakashima \r\n\r\nScene # 3 - Kazumichi Nakashima
+    \r\n\r\nScene # 4 - Zijie Jin \r\n\r\nScene # 5 - Junxiang Zhang \r\n\r\nScene
+    # 6 - Ping Feng \r\n\r\nScene # 7 - Ping Feng \r\n\r\nScene # 8 - Kazumichi Nakashima
+    \r\n\r\nScene # 9 - Junxiang Zhang \r\n\r\nScene # 10 - Junxiang Zhang \r\n\r\nScene
+    # 11 - Ping Feng \r\n\r\nScene # 12 - Zijie Jin \r\n\r\n\nVoice Cover \n\r\nBaby
+    Sparrow- Dallas \r\n\r\nMother Sparrow - Menglin \r\n\r\nDandelion - Paul \r\n\r\nCow
+    - Paul \r\n\r\nHen - Dallas \r\n\r\nCrow \u2013 Costa \r\n\r\nNarration - Menglin
+    \n\n\n3D Models \r\n\r\nBirds nest \u2013 IronEqual (Sketchfab) \r\n\r\nFarm
+    - Sampaidesu (Sketchfab) \r\n\r\nForest House - peachy royalty (Sketchfab) \r\n\r\nStylized
+    forest - Scene \"May holiday\" - borsh_and (Sketchfab) \r\n\r\nWheat Farm At
+    Sunset \u2013 kristenlee (Sketchfab) \r\n\r\nLow-poly Tree \u2013 ALostEggroll
+    (Sketchfab) \r\n\r\nDandelion  - IronEqual (Sketchfab) "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
