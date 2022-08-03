@@ -9610,7 +9610,7 @@ GameObject:
   - component: {fileID: 1073124215}
   - component: {fileID: 1073124216}
   m_Layer: 0
-  m_Name: characterReview (1)
+  m_Name: Scene8-characterReview
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
