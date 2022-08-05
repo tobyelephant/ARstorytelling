@@ -562,6 +562,8 @@ struct AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354;
 struct AnimationState_tC704F25A20169025B6CFDC2F00DC84152B5B73CE;
 // UnityEngine.UI.AnimationTriggers
 struct AnimationTriggers_tA0DC06F89C5280C6DD972F6F4C8A56D7F4F79074;
+// UnityEngine.Animator
+struct Animator_t8A52E42AE54F76681838FE9E632683EF3952E883;
 // System.Collections.ArrayList
 struct ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A;
 // UnityEngine.InputSystem.Controls.AxisControl
@@ -17646,6 +17648,20 @@ struct XRHMD_t2AB69188B210850F78044E5288C17FD173DB9B98  : public TrackedDevice_t
 	QuaternionControl_t18A2F742850FC2FD82A1F980A35C188A29F1A0B1* ___U3CcenterEyeRotationU3Ek__BackingField_48;
 };
 
+// babyAniReplay7
+struct babyAniReplay7_t9859D144C415C54F673C38B88FCB07440F0A3327  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// UnityEngine.Animator babyAniReplay7::BabySparrowController_S7
+	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ___BabySparrowController_S7_4;
+};
+
+// floatBoolSetting
+struct floatBoolSetting_t51497375CFD49862270F08D052D0E54CA663660C  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// UnityEngine.Animator floatBoolSetting::BabySparrowController_S6
+	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ___BabySparrowController_S6_4;
+};
+
 // infoPanel
 struct infoPanel_t69079486DB8098D3166F9A4844AC049C22DF9AA3  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -22012,12 +22028,18 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7533[1] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7538[4] = 
 {
 	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7546[5] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7546[1] = 
 {
-	static_cast<int32_t>(offsetof(RuntimeDebuggerOpenXRFeature_t1E3C60D2636DEC25D95E63BB3300DBFC5E9057BA_StaticFields, ___kEditorToPlayerRequestDebuggerOutput_16)),static_cast<int32_t>(offsetof(RuntimeDebuggerOpenXRFeature_t1E3C60D2636DEC25D95E63BB3300DBFC5E9057BA_StaticFields, ___kPlayerToEditorSendDebuggerOutput_17)),static_cast<int32_t>(offsetof(RuntimeDebuggerOpenXRFeature_t1E3C60D2636DEC25D95E63BB3300DBFC5E9057BA, ___cacheSize_18)),static_cast<int32_t>(offsetof(RuntimeDebuggerOpenXRFeature_t1E3C60D2636DEC25D95E63BB3300DBFC5E9057BA, ___perThreadCacheSize_19)),0,};
+	static_cast<int32_t>(offsetof(babyAniReplay7_t9859D144C415C54F673C38B88FCB07440F0A3327, ___BabySparrowController_S7_4)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7548[1] = 
+{
+	static_cast<int32_t>(offsetof(floatBoolSetting_t51497375CFD49862270F08D052D0E54CA663660C, ___BabySparrowController_S6_4)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7549[2] = 
 {
 	static_cast<int32_t>(offsetof(infoPanel_t69079486DB8098D3166F9A4844AC049C22DF9AA3, ___isOn_4)),static_cast<int32_t>(offsetof(infoPanel_t69079486DB8098D3166F9A4844AC049C22DF9AA3, ___InformationPanel_5)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7551[1] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7551[5] = 
+{
+	static_cast<int32_t>(offsetof(RuntimeDebuggerOpenXRFeature_t1E3C60D2636DEC25D95E63BB3300DBFC5E9057BA_StaticFields, ___kEditorToPlayerRequestDebuggerOutput_16)),static_cast<int32_t>(offsetof(RuntimeDebuggerOpenXRFeature_t1E3C60D2636DEC25D95E63BB3300DBFC5E9057BA_StaticFields, ___kPlayerToEditorSendDebuggerOutput_17)),static_cast<int32_t>(offsetof(RuntimeDebuggerOpenXRFeature_t1E3C60D2636DEC25D95E63BB3300DBFC5E9057BA, ___cacheSize_18)),static_cast<int32_t>(offsetof(RuntimeDebuggerOpenXRFeature_t1E3C60D2636DEC25D95E63BB3300DBFC5E9057BA, ___perThreadCacheSize_19)),0,};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7553[1] = 
 {
 	0,};
