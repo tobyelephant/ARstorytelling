@@ -8,12 +8,12 @@ public class changeScene : MonoBehaviour
     // Start is called before the first frame update
    public void MainMenu()
    {
-       SceneManager.LoadScene("homePage");
+       SceneManager.LoadScene("HomePage");
    }
 
    public void ARScene()
    {
-       SceneManager.LoadScene("ARscene");
+       SceneManager.LoadScene("ARstorytelling");
    }
 
    public void QuitApp()
