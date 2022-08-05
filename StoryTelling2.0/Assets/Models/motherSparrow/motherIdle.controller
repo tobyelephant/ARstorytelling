@@ -1,14 +1,14 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1102 &-6086457740907044657
+--- !u!1102 &-3595999926456070051
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Root|Raven_Flying
-  m_Speed: 0.6
+  m_Name: Root_Mother_Idle_S1
+  m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
   m_StateMachineBehaviours: []
@@ -20,7 +20,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -4070907893739987971, guid: 0a6e3f4613514429e9f4ac0ab4e56d9c, type: 3}
+  m_Motion: {fileID: 7400000, guid: 97b50d8267dfc9d48a10a78c8c21086d, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -36,8 +36,8 @@ AnimatorStateMachine:
   m_Name: Base Layer
   m_ChildStates:
   - serializedVersion: 1
-    m_State: {fileID: -6086457740907044657}
-    m_Position: {x: 324.61652, y: 147.37296, z: 0}
+    m_State: {fileID: -3595999926456070051}
+    m_Position: {x: 254.25961, y: 123.138794, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -47,7 +47,7 @@ AnimatorStateMachine:
   m_EntryPosition: {x: 50, y: 120, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
-  m_DefaultState: {fileID: -6086457740907044657}
+  m_DefaultState: {fileID: -3595999926456070051}
 --- !u!91 &9100000
 AnimatorController:
   m_ObjectHideFlags: 0
