@@ -62,7 +62,7 @@ img{
 	font-size: .6em;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	font-weight:300;
+	font-weight:bold;
 	transition: transform 200ms ease-in-out;
 	border-radius: 3%;
 	margin-top: 10px;
