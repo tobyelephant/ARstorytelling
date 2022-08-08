@@ -182,8 +182,11 @@ UnityEngine.AnimationCurve::Internal_Destroy
 UnityEngine.AnimationCurve::GetKeys
 UnityEngine.Animations.AnimationLayerMixerPlayable::SetSingleLayerOptimizationInternal
 UnityEngine.Animator::get_hasBoundPlayables
+UnityEngine.Animator::StringToHash
+UnityEngine.Animator::Play
 UnityEngine.Animator::ResetTriggerString
 UnityEngine.Animator::SetTriggerString
+UnityEngine.Animator::StopPlayback
 UnityEngine.Application::HasUserAuthorization
 UnityEngine.Application::get_isBatchMode
 UnityEngine.Application::get_isFocused
@@ -195,6 +198,7 @@ UnityEngine.Application::get_productName
 UnityEngine.Application::get_streamingAssetsPath
 UnityEngine.Application::get_unityVersion
 UnityEngine.Application::get_version
+UnityEngine.Application::OpenURL
 UnityEngine.Application::Quit
 UnityEngine.Application::set_runInBackground
 UnityEngine.Application::RequestUserAuthorization
@@ -676,6 +680,8 @@ UnityEngine.PlayerConnectionInternal::PollInternal
 UnityEngine.PlayerConnectionInternal::RegisterInternal
 UnityEngine.PlayerConnectionInternal::SendMessage
 UnityEngine.PlayerConnectionInternal::UnregisterInternal
+UnityEngine.Profiling.Profiler::BeginSampleImpl
+UnityEngine.Profiling.Profiler::EndSample
 UnityEngine.PropertyNameUtils::PropertyNameFromString_Injected
 UnityEngine.QualitySettings::get_activeColorSpace
 UnityEngine.Quaternion::AngleAxis_Injected
