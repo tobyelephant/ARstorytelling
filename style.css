@@ -48,6 +48,7 @@ img{
   	width: 50%;
 	margin-top: 4rem;
 	padding-bottom: 3rem;
+	display:block;
 }
 .introduction p {
 	text-align:center;
@@ -76,6 +77,7 @@ img{
 }
 
 .qrcode{
+	display:block;
 	margin: auto;
   	width: 70%;
 	color: darkseagreen;
@@ -89,6 +91,7 @@ img{
 }
 
 .ebook{
+	display: block;
 	margin: auto;
   	width: 50%;
 	
@@ -99,9 +102,11 @@ img{
 	.ebook{
 		margin: auto;
  		width: 100%;
+		display: block;
 	}
 
 	.introduction{
+		display: block;
 		margin: auto;
   		width: 50%;
 	}
@@ -114,6 +119,7 @@ img{
 	.qr_image{
 		margin: auto;
   		width: 100%;
+		display: block;
 	}
 	
 }
