@@ -413,39 +413,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void floatBoolSetting__ctor_m08E7D11C9F598964
 // System.Void infoPanel::togglePanel()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void infoPanel_togglePanel_mBDD6B684C1609673BB886D8FB8069F7ACDA4D1CA (infoPanel_t69079486DB8098D3166F9A4844AC049C22DF9AA3* __this, const RuntimeMethod* method) 
 {
-	bool V_0 = false;
 	{
 		// if (isOn)
 		bool L_0 = __this->___isOn_4;
-		V_0 = L_0;
-		bool L_1 = V_0;
-		if (!L_1)
+		if (!L_0)
 		{
-			goto IL_0023;
+			goto IL_001c;
 		}
 	}
 	{
 		// InformationPanel.SetActive(false);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___InformationPanel_5;
-		NullCheck(L_2);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)0, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___InformationPanel_5;
+		NullCheck(L_1);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)0, NULL);
 		// isOn = false;
 		__this->___isOn_4 = (bool)0;
-		goto IL_0039;
+		return;
 	}
 
-IL_0023:
+IL_001c:
 	{
 		// InformationPanel.SetActive(true);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___InformationPanel_5;
-		NullCheck(L_3);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)1, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___InformationPanel_5;
+		NullCheck(L_2);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)1, NULL);
 		// isOn = true;
 		__this->___isOn_4 = (bool)1;
-	}
-
-IL_0039:
-	{
 		// }
 		return;
 	}
@@ -454,8 +447,6 @@ IL_0039:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void infoPanel__ctor_m56242BCB7D5C2B2D1B2D96D544A700813DAE8C8C (infoPanel_t69079486DB8098D3166F9A4844AC049C22DF9AA3* __this, const RuntimeMethod* method) 
 {
 	{
-		// bool isOn = false;
-		__this->___isOn_4 = (bool)0;
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
 	}

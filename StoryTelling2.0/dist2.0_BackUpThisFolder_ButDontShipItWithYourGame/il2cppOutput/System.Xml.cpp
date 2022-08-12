@@ -4034,61 +4034,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XmlTextReaderImpl_get_CanResolveEntity_m
 		return (bool)1;
 	}
 }
-// System.String System.Xml.XmlTextReaderImpl::GetAttribute(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* XmlTextReaderImpl_GetAttribute_m2105D6EFFDE0634EAC52F10A14C16C9C1FB25FB9 (XmlTextReaderImpl_t5F48FDC8E88C9E27593266F6C660B3973AE2167B* __this, String_t* ___name0, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	{
-		String_t* L_0 = ___name0;
-		NullCheck(L_0);
-		int32_t L_1;
-		L_1 = String_IndexOf_mE21E78F35EF4A7768E385A72814C88D22B689966(L_0, ((int32_t)58), NULL);
-		if ((!(((uint32_t)L_1) == ((uint32_t)(-1)))))
-		{
-			goto IL_0015;
-		}
-	}
-	{
-		String_t* L_2 = ___name0;
-		int32_t L_3;
-		L_3 = XmlTextReaderImpl_GetIndexOfAttributeWithoutPrefix_mE28A59CD28367148597BB65AB4C1EBA22DBE8F9A(__this, L_2, NULL);
-		V_0 = L_3;
-		goto IL_001d;
-	}
-
-IL_0015:
-	{
-		String_t* L_4 = ___name0;
-		int32_t L_5;
-		L_5 = XmlTextReaderImpl_GetIndexOfAttributeWithPrefix_mEF35AFBF456D1F9EF89A3E72121686EF60C03C68(__this, L_4, NULL);
-		V_0 = L_5;
-	}
-
-IL_001d:
-	{
-		int32_t L_6 = V_0;
-		if ((((int32_t)L_6) >= ((int32_t)0)))
-		{
-			goto IL_0023;
-		}
-	}
-	{
-		return (String_t*)NULL;
-	}
-
-IL_0023:
-	{
-		NodeDataU5BU5D_t1945F048F8DECB62636A155E1182995E8FAA9610* L_7 = __this->___nodes_9;
-		int32_t L_8 = V_0;
-		NullCheck(L_7);
-		int32_t L_9 = L_8;
-		NodeData_tEB6A7F9E5147217F637373A7B7644BE377D539FF* L_10 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
-		NullCheck(L_10);
-		String_t* L_11;
-		L_11 = NodeData_get_StringValue_m49F31840D0EC31EAF70E6F4EF5BE14BB900B2624(L_10, NULL);
-		return L_11;
-	}
-}
 // System.Boolean System.Xml.XmlTextReaderImpl::MoveToAttribute(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XmlTextReaderImpl_MoveToAttribute_m31E2D477A852928D8BA84C43DF9A1603A6C8BF6A (XmlTextReaderImpl_t5F48FDC8E88C9E27593266F6C660B3973AE2167B* __this, String_t* ___name0, const RuntimeMethod* method) 
 {
@@ -5232,7 +5177,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* XmlTextReaderImpl_System_Xml_IXmlNa
 	{
 		String_t* L_0 = ___prefix0;
 		String_t* L_1;
-		L_1 = VirtualFuncInvoker1< String_t*, String_t* >::Invoke(26 /* System.String System.Xml.XmlReader::LookupNamespace(System.String) */, __this, L_0);
+		L_1 = VirtualFuncInvoker1< String_t*, String_t* >::Invoke(25 /* System.String System.Xml.XmlReader::LookupNamespace(System.String) */, __this, L_0);
 		return L_1;
 	}
 }
@@ -16905,7 +16850,7 @@ IL_0036:
 		XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD* L_6 = __this->___outerReader_74;
 		NullCheck(L_6);
 		bool L_7;
-		L_7 = VirtualFuncInvoker0< bool >::Invoke(22 /* System.Boolean System.Xml.XmlReader::Read() */, L_6);
+		L_7 = VirtualFuncInvoker0< bool >::Invoke(21 /* System.Boolean System.Xml.XmlReader::Read() */, L_6);
 		return;
 	}
 }
@@ -24782,7 +24727,7 @@ IL_0199:
 		XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD* L_51 = __this->___outerReader_74;
 		NullCheck(L_51);
 		bool L_52;
-		L_52 = VirtualFuncInvoker0< bool >::Invoke(22 /* System.Boolean System.Xml.XmlReader::Read() */, L_51);
+		L_52 = VirtualFuncInvoker0< bool >::Invoke(21 /* System.Boolean System.Xml.XmlReader::Read() */, L_51);
 		__this->___incReadState_49 = ((int32_t)9);
 	}
 
@@ -25710,7 +25655,7 @@ IL_003b:
 IL_0043:
 	{
 		bool L_6;
-		L_6 = VirtualFuncInvoker0< bool >::Invoke(21 /* System.Boolean System.Xml.XmlReader::ReadAttributeValue() */, __this);
+		L_6 = VirtualFuncInvoker0< bool >::Invoke(20 /* System.Boolean System.Xml.XmlReader::ReadAttributeValue() */, __this);
 		if (!L_6)
 		{
 			goto IL_0055;
@@ -26930,7 +26875,7 @@ IL_005c:
 	{
 		XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD* L_5 = __this->___outerReader_74;
 		NullCheck(L_5);
-		VirtualActionInvoker0::Invoke(28 /* System.Void System.Xml.XmlReader::ResolveEntity() */, L_5);
+		VirtualActionInvoker0::Invoke(27 /* System.Void System.Xml.XmlReader::ResolveEntity() */, L_5);
 		goto IL_006b;
 	}
 
@@ -26945,7 +26890,7 @@ IL_006b:
 		XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD* L_6 = __this->___outerReader_74;
 		NullCheck(L_6);
 		bool L_7;
-		L_7 = VirtualFuncInvoker0< bool >::Invoke(22 /* System.Boolean System.Xml.XmlReader::Read() */, L_6);
+		L_7 = VirtualFuncInvoker0< bool >::Invoke(21 /* System.Boolean System.Xml.XmlReader::Read() */, L_6);
 		if (L_7)
 		{
 			goto IL_0000;

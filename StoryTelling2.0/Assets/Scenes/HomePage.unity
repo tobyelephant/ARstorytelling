@@ -1055,7 +1055,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd86f606d0a085d4cbed83973ed0d82c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Url: https://github.com/tobyelephant/ARstorytelling/blob/a769dd1d302090f9a207c89c9533f45cfdd4a3d8/findingmotherBook.pdf
+  Url: https://github.com/tobyelephant/ARstorytelling/blob/master/findingmotherBook.pdf
 --- !u!114 &2136668104
 MonoBehaviour:
   m_ObjectHideFlags: 0
