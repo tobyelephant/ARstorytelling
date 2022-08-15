@@ -36,9 +36,14 @@ body{
 }
 
 
-img{
+img {
 	display: block;
 	width: 500px;
+	margin: auto;
+}
+
+.title_image{
+	display: block;
 	margin: auto;
 }
 
@@ -94,6 +99,10 @@ img{
 	margin: auto;
   	width: 70%;
 	
+}
+
+.demo{
+	margin-top: 3rem;
 }
 
 @media (max-width: 800px) {
