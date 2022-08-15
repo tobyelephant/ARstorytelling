@@ -16,7 +16,7 @@ h2{
 
 h3{
 	line-height:1;
-	margin:15px 3rem;
+	margin:15px 1rem;
 	font-size:20px;
 }
 
@@ -102,10 +102,12 @@ img {
 }
 
 .demo{
-	margin-top: 3rem;
+	margin: auto;
+	width: 80%;
+	display: block;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
 
 	.ebook{
 		margin: auto;
@@ -126,7 +128,18 @@ img {
 
 	.qr_image{
 		margin: auto;
-  		width: 100%;
+  		width: 80%;
+		display: block;
+	}
+
+	.title_image{
+  		width: 80%;
+		display: block;
+		margin:auto;
+	}
+
+	.demo{
+		margin:auto;
 		display: block;
 	}
 	
