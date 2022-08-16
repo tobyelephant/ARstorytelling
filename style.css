@@ -105,6 +105,7 @@ img {
 	margin: auto;
 	width: 80%;
 	display: block;
+	border: 4px solid darkseagreen;
 }
 
 @media (max-width: 600px) {
@@ -141,6 +142,7 @@ img {
 	.demo{
 		margin:auto;
 		display: block;
+		border: 2px solid darkseagreen;
 	}
 	
 }
